@@ -1,0 +1,38 @@
+{
+  "name": "kasp_linechatbot",
+  "version": "1.0.0",
+  "description": "KasP: Linebot for SAS Services",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch ./dist/index.js",
+    "start": "node ./dist/index.js",
+    "ngrok": "ngrok http 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kasidatep/KasP_SASLineChatbot.git"
+  },
+  "keywords": [
+    "chatbot",
+    "line"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kasidatep/KasP_SASLineChatbot/issues"
+  },
+  "homepage": "https://github.com/Kasidatep/KasP_SASLineChatbot#readme",
+  "author": "@Kasidatep <bank@kasidate.me> (https://kasidate.me)",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.6.3",
+    "ngrok": "^5.0.0-beta.2",
+    "typescript": "^5.2.2"
+  }
+}
