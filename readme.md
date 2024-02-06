@@ -1,4 +1,4 @@
-# Line | History Message API
+see# Line | History Message API
 ----
  Document by @kasidatep **|** Last update: Jan 01, 2024 
 
@@ -83,8 +83,6 @@ Now, your `config` object is configured with the necessary information to intera
 - Regularly check for updates or changes in the LINE API to ensure compatibility.
 
 Remember to tailor the project based on your specific requirements and consider potential improvements or modifications based on your use case.
-
-> Note: Ensure that the dependencies (`axios`, `fs`) are installed, and the necessary permissions are granted for file operations. Additionally, handle sensitive information like tokens and cookies securely, as exposing them could lead to security issues.
 
 -----
 
